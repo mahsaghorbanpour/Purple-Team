@@ -1,0 +1,4 @@
+﻿ New-ItemProperty -path hkcu:\Software\Microsoft\Windows\CurrentVersion\Run -Name python1 -Value "C:\Users\Public\Desktop\PyCharm Edu 2022.2.2.lnk"
+ New-ItemProperty -path hkcu:\Software\Microsoft\Windows\CurrentVersion\RunOnce -Name google1 -value "C:\Users\Public\Desktop\Google Chrome.lnk"
+ New-ItemProperty -path hkcu:\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders -Name anydesk1 -value "C:\Users\Public\Desktop\AnyDesk.lnk"
+ New-ItemProperty -path hkcu:\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders -Name firefox1 -value "C:\Users\Public\Desktop\Firefox.lnk"

@@ -1,0 +1,4 @@
+﻿New-ItemProperty -Path hklm:\Software\Microsoft\Windows\CurrentVersion\Run -Name calculate1 -Value "c:\windows\system32"
+New-ItemProperty -Path hklm:\Software\Microsoft\Windows\CurrentVersion\RunOnce -Name adobe1 -Value  "C:\Users\Public\Desktop\Adobe Acrobat DC.lnk"
+New-ItemProperty -Path hklm:\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders -Name git1 -Value "C:\Users\Asus\Desktop\Git-2.43.0-64-bit - Shortcut.lnk"
+New-ItemProperty -Path hklm:\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders -Name powershell1 -Value "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
